@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+  }
+  
+  a.link {
+    font-weight: bold;
+    font-size: 25px;
+    margin-inline: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+    transition: text-decoration 0.3s;
+  }
+  
+  a.link:hover {
+    text-decoration: underline;
+  }
+  
+  h1.heading {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  h2.heading {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  p.intro-info {
+    font-size: 23px;
+    margin-inline: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  li {
+    font-size: 23px;
+    margin-inline: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+  }
+  
+  img.logo {
+    width:60px;
+    height: 60px;
+    margin-inline: 30px;
+  }
+  
+  nav.block {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    padding-block: 18px;
+  }
+  
+  div.heading {
+    text-align: center;
+    background-color: #292929;
+    padding: 50px;
+    margin: 0;
+  }
+  div.content {
+    margin: 12px;
+    padding-block: 50px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  
+  div.benefit-list {
+    text-align: left;
+    text-decoration: none;
+    margin: 12px;
+    padding-block: 50px;
+    background-color: lightblue;
+    border-radius: 20px;
+  }
+  div.benefit-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  div.benefit-list li {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  div.benefit-list li::before {
+    content: "•";
+    color: #549cc0;
+    margin-right: 10px;
+  }
+  
+  
+  div.button-learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0ca701;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  div.button-learn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
